@@ -4,10 +4,19 @@
  * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
  */
 
+$light-gray: #aeb0b5;
+$lightest-gray: #efefef;
+$dark-blue: #1d4a88;
+$white: #ffffff;
+$light-gray: #CCCCCC;
+$red: red;
+$green: green;
+$normal: #9999CC;
+
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
-  color: #404040;
+  color: $light-gray;
 }
 p {
   line-height: 1.5;
@@ -65,19 +74,19 @@ hr.small {
 }
 @media only screen and (min-width: 768px) {
   .navbar-custom {
-    background: transparent;
+    #background: transparent;
     border-bottom: 1px solid transparent;
   }
-  .navbar-custom .navbar-brand {
-    color: white;
+  .navbar-custom .navbar-brand { // This is the Start Bootstrap
+    color: #0085a1;
     padding: 20px;
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 133, 165, 0.8);
   }
   .navbar-custom .nav li a {
-    color: white;
+    color: black;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover,
@@ -103,7 +112,7 @@ hr.small {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
     top: -61px;
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(127,127,127, 0.9);
     border-bottom: 1px solid #f2f2f2;
     -webkit-transition: -webkit-transform 0.3s;
     -moz-transition: -moz-transform 0.3s;
@@ -133,7 +142,7 @@ hr.small {
   }
 }
 .intro-header {
-  background-color: #808080;
+  background-color: #80ff80;
   background: no-repeat center center;
   background-attachment: scroll;
   -webkit-background-size: cover;
@@ -144,9 +153,9 @@ hr.small {
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
-.intro-header .page-heading {
+.intro-header .page-heading { // This brings out Clean Blog
   padding: 100px 0 50px;
-  color: white;
+  color: #0085a1;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
