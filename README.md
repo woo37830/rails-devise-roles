@@ -36,6 +36,11 @@ Documentation and Support
 
 Issues
 -------------
+Users pages don't have a header or navigation.
+Users name should appear in header
+Integrate header from blog app into this.
+Add jQuery DataTables support for tables.
+Add header from blog app
 
 Similar Projects
 ----------------
